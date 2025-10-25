@@ -1,0 +1,15 @@
+[project]
+name = "lab1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.2"
+dependencies = [
+    "comet-ml>=3.53.2",
+    "matplotlib>=3.10.7",
+    "mitdeeplearning>=0.7.5",
+    "numpy>=2.3.4",
+    "opencv-python>=4.11.0.86",
+    "scipy>=1.16.2",
+    "torch>=2.9.0",
+]
