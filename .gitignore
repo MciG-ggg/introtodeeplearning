@@ -136,3 +136,28 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Deep Learning Lab Files
+# Training checkpoints and model artifacts
+**/training_checkpoints/
+**/checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Generated audio files
+*.wav
+*.mp3
+*.mid
+*.midi
+
+# Temporary files from music generation
+tmp.*
+tmp_*.*
+output_*.*
+
+# Project-specific files (optional)
+main.py
+pyproject.toml
+uv.lock
+.spec-workflow/
